@@ -20,7 +20,7 @@ class _Points_CounterState extends State<Points_Counter> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.green,
         title: const Text(
           "Points Counter",
           style: TextStyle(color: Colors.black),
@@ -57,7 +57,7 @@ class _Points_CounterState extends State<Points_Counter> {
                             alignment: Alignment.center,
                             width: 100,
                             height: 30,
-                            color: Colors.yellow,
+                            color: Colors.green,
                             child: const Text(
                               "add 1 points",
                               style: TextStyle(color: Colors.black),
@@ -75,7 +75,7 @@ class _Points_CounterState extends State<Points_Counter> {
                             alignment: Alignment.center,
                             width: 100,
                             height: 30,
-                            color: Colors.yellow,
+                            color: Colors.green,
                             child: const Text(
                               "add 2 points",
                               style: TextStyle(color: Colors.black),
@@ -93,7 +93,7 @@ class _Points_CounterState extends State<Points_Counter> {
                             alignment: Alignment.center,
                             width: 100,
                             height: 30,
-                            color: Colors.yellow,
+                            color: Colors.green,
                             child: const Text(
                               "add 3 points",
                               style: TextStyle(color: Colors.black),
@@ -103,6 +103,13 @@ class _Points_CounterState extends State<Points_Counter> {
                       ],
                     ),
                   ],
+                ),
+                const SizedBox(
+                  height: 300,
+                  child: VerticalDivider(
+                    thickness: 1,
+                    color: Colors.grey,
+                  ),
                 ),
                 Column(
                   children: [
@@ -128,7 +135,7 @@ class _Points_CounterState extends State<Points_Counter> {
                             alignment: Alignment.center,
                             width: 100,
                             height: 30,
-                            color: Colors.yellow,
+                            color: Colors.green,
                             child: const Text(
                               "add 1 points",
                               style: TextStyle(color: Colors.black),
@@ -146,7 +153,7 @@ class _Points_CounterState extends State<Points_Counter> {
                             alignment: Alignment.center,
                             width: 100,
                             height: 30,
-                            color: Colors.yellow,
+                            color: Colors.green,
                             child: const Text(
                               "add 2 points",
                               style: TextStyle(color: Colors.black),
@@ -164,7 +171,7 @@ class _Points_CounterState extends State<Points_Counter> {
                             alignment: Alignment.center,
                             width: 100,
                             height: 30,
-                            color: Colors.yellow,
+                            color: Colors.green,
                             child: const Text(
                               "add 3 points",
                               style: TextStyle(color: Colors.black),
@@ -194,7 +201,7 @@ class _Points_CounterState extends State<Points_Counter> {
                 alignment: Alignment.center,
                 width: 130,
                 height: 30,
-                color: Colors.yellow,
+                color: Colors.green,
                 child: const Text(
                   "Reset",
                   style: TextStyle(color: Colors.black, fontSize: 16),
